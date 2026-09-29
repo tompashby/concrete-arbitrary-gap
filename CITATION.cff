@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this benchmark or its results, please cite this work."
+title: "The Concrete–Arbitrary Gap: Kinship Reasoning in LLMs Is Not Indifferent to Presentation"
+type: article
+authors:
+  - family-names: Pashby
+    given-names: Thomas
+    affiliation: Middlebury College
+    email: tpashby@middlebury.edu
+year: 2026
+abstract: >-
+  We test whether large language models solve formally matched kinship
+  problems equally well when relations are expressed in familiar vocabulary
+  or by explicitly defined nonce predicates. Across four models and 500 paired
+  graphs, concrete accuracy reliably exceeds arbitrary accuracy. Reasoning
+  budgets and prompt-language interventions can substantially reduce the
+  difference, showing that it is modifiable rather than a fixed incapacity.
+keywords:
+  - large language models
+  - relational reasoning
+  - kinship inference
+  - semantic content
+  - reasoning budgets
+  - representation sensitivity
+repository-code: https://github.com/tompashby/concrete-arbitrary-gap
+url: https://github.com/tompashby/concrete-arbitrary-gap

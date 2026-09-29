@@ -1,0 +1,730 @@
+[
+  {
+    "model": "gemma26",
+    "budget": 32,
+    "condition": "concrete",
+    "difference": -0.144,
+    "ci": [
+      -0.18,
+      -0.11
+    ],
+    "left_only": 8,
+    "right_only": 80,
+    "p": 4.601761192576427e-16
+  },
+  {
+    "model": "gemma26",
+    "budget": 32,
+    "condition": "arbitrary",
+    "difference": -0.292,
+    "ci": [
+      -0.344,
+      -0.24
+    ],
+    "left_only": 36,
+    "right_only": 182,
+    "p": 1.1358719726832985e-24
+  },
+  {
+    "model": "gemma26",
+    "budget": 64,
+    "condition": "concrete",
+    "difference": -0.124,
+    "ci": [
+      -0.156,
+      -0.092
+    ],
+    "left_only": 7,
+    "right_only": 69,
+    "p": 6.417967005513454e-14
+  },
+  {
+    "model": "gemma26",
+    "budget": 64,
+    "condition": "arbitrary",
+    "difference": -0.372,
+    "ci": [
+      -0.426,
+      -0.318
+    ],
+    "left_only": 35,
+    "right_only": 221,
+    "p": 3.368761723744666e-34
+  },
+  {
+    "model": "gemma26",
+    "budget": 128,
+    "condition": "concrete",
+    "difference": -0.088,
+    "ci": [
+      -0.118,
+      -0.058
+    ],
+    "left_only": 9,
+    "right_only": 53,
+    "p": 1.0507232717140574e-08
+  },
+  {
+    "model": "gemma26",
+    "budget": 128,
+    "condition": "arbitrary",
+    "difference": -0.274,
+    "ci": [
+      -0.324,
+      -0.224
+    ],
+    "left_only": 36,
+    "right_only": 173,
+    "p": 1.121878630680683e-22
+  },
+  {
+    "model": "gemma26",
+    "budget": 192,
+    "condition": "concrete",
+    "difference": -0.032,
+    "ci": [
+      -0.056,
+      -0.01
+    ],
+    "left_only": 10,
+    "right_only": 26,
+    "p": 0.011330984183587134
+  },
+  {
+    "model": "gemma26",
+    "budget": 192,
+    "condition": "arbitrary",
+    "difference": -0.16,
+    "ci": [
+      -0.212,
+      -0.108
+    ],
+    "left_only": 57,
+    "right_only": 137,
+    "p": 8.77838855752483e-09
+  },
+  {
+    "model": "gemma26",
+    "budget": 256,
+    "condition": "concrete",
+    "difference": 0.0,
+    "ci": [
+      -0.018,
+      0.018
+    ],
+    "left_only": 10,
+    "right_only": 10,
+    "p": 1.0
+  },
+  {
+    "model": "gemma26",
+    "budget": 256,
+    "condition": "arbitrary",
+    "difference": -0.018,
+    "ci": [
+      -0.066,
+      0.03
+    ],
+    "left_only": 72,
+    "right_only": 81,
+    "p": 0.5179210307990446
+  },
+  {
+    "model": "gemma26",
+    "budget": 384,
+    "condition": "concrete",
+    "difference": 0.012,
+    "ci": [
+      -0.004,
+      0.028
+    ],
+    "left_only": 11,
+    "right_only": 5,
+    "p": 0.210113525390625
+  },
+  {
+    "model": "gemma26",
+    "budget": 384,
+    "condition": "arbitrary",
+    "difference": 0.152,
+    "ci": [
+      0.116,
+      0.188
+    ],
+    "left_only": 86,
+    "right_only": 10,
+    "p": 3.2114796492801454e-16
+  },
+  {
+    "model": "gemma26",
+    "budget": 512,
+    "condition": "concrete",
+    "difference": 0.02,
+    "ci": [
+      0.006,
+      0.034
+    ],
+    "left_only": 11,
+    "right_only": 1,
+    "p": 0.00634765625
+  },
+  {
+    "model": "gemma26",
+    "budget": 512,
+    "condition": "arbitrary",
+    "difference": 0.162,
+    "ci": [
+      0.128,
+      0.198
+    ],
+    "left_only": 87,
+    "right_only": 6,
+    "p": 1.6504649136152465e-19
+  },
+  {
+    "model": "gemma31",
+    "budget": 32,
+    "condition": "concrete",
+    "difference": 0.004,
+    "ci": [
+      -0.006,
+      0.016
+    ],
+    "left_only": 5,
+    "right_only": 3,
+    "p": 0.7265625
+  },
+  {
+    "model": "gemma31",
+    "budget": 32,
+    "condition": "arbitrary",
+    "difference": -0.064,
+    "ci": [
+      -0.088,
+      -0.04
+    ],
+    "left_only": 4,
+    "right_only": 36,
+    "p": 1.8570244719740003e-07
+  },
+  {
+    "model": "gemma31",
+    "budget": 64,
+    "condition": "concrete",
+    "difference": 0.014,
+    "ci": [
+      0.002,
+      0.028
+    ],
+    "left_only": 9,
+    "right_only": 2,
+    "p": 0.0654296875
+  },
+  {
+    "model": "gemma31",
+    "budget": 64,
+    "condition": "arbitrary",
+    "difference": -0.02,
+    "ci": [
+      -0.044,
+      0.004
+    ],
+    "left_only": 14,
+    "right_only": 24,
+    "p": 0.14330665429588407
+  },
+  {
+    "model": "gemma31",
+    "budget": 128,
+    "condition": "concrete",
+    "difference": -0.002,
+    "ci": [
+      -0.018,
+      0.014
+    ],
+    "left_only": 8,
+    "right_only": 9,
+    "p": 1.0
+  },
+  {
+    "model": "gemma31",
+    "budget": 128,
+    "condition": "arbitrary",
+    "difference": -0.018,
+    "ci": [
+      -0.046,
+      0.01
+    ],
+    "left_only": 20,
+    "right_only": 29,
+    "p": 0.2528697301676033
+  },
+  {
+    "model": "gemma31",
+    "budget": 192,
+    "condition": "concrete",
+    "difference": 0.01,
+    "ci": [
+      -0.004,
+      0.024
+    ],
+    "left_only": 9,
+    "right_only": 4,
+    "p": 0.266845703125
+  },
+  {
+    "model": "gemma31",
+    "budget": 192,
+    "condition": "arbitrary",
+    "difference": -0.06,
+    "ci": [
+      -0.098,
+      -0.022
+    ],
+    "left_only": 32,
+    "right_only": 62,
+    "p": 0.002587308956921308
+  },
+  {
+    "model": "gemma31",
+    "budget": 256,
+    "condition": "concrete",
+    "difference": 0.012,
+    "ci": [
+      -0.002,
+      0.026
+    ],
+    "left_only": 9,
+    "right_only": 3,
+    "p": 0.14599609375
+  },
+  {
+    "model": "gemma31",
+    "budget": 256,
+    "condition": "arbitrary",
+    "difference": 0.042,
+    "ci": [
+      0.004,
+      0.08
+    ],
+    "left_only": 57,
+    "right_only": 36,
+    "p": 0.03751423180190034
+  },
+  {
+    "model": "gemma31",
+    "budget": 384,
+    "condition": "concrete",
+    "difference": 0.008,
+    "ci": [
+      -0.006,
+      0.024
+    ],
+    "left_only": 9,
+    "right_only": 5,
+    "p": 0.4239501953125
+  },
+  {
+    "model": "gemma31",
+    "budget": 384,
+    "condition": "arbitrary",
+    "difference": 0.13,
+    "ci": [
+      0.098,
+      0.162
+    ],
+    "left_only": 69,
+    "right_only": 4,
+    "p": 2.4422670374772693e-16
+  },
+  {
+    "model": "gemma31",
+    "budget": 512,
+    "condition": "concrete",
+    "difference": 0.014,
+    "ci": [
+      0.002,
+      0.028
+    ],
+    "left_only": 9,
+    "right_only": 2,
+    "p": 0.0654296875
+  },
+  {
+    "model": "gemma31",
+    "budget": 512,
+    "condition": "arbitrary",
+    "difference": 0.136,
+    "ci": [
+      0.106,
+      0.168
+    ],
+    "left_only": 69,
+    "right_only": 1,
+    "p": 1.2027867851011065e-19
+  },
+  {
+    "model": "qwen27",
+    "budget": 32,
+    "condition": "concrete",
+    "difference": -0.104,
+    "ci": [
+      -0.152,
+      -0.056
+    ],
+    "left_only": 52,
+    "right_only": 104,
+    "p": 3.807686266744049e-05
+  },
+  {
+    "model": "qwen27",
+    "budget": 32,
+    "condition": "arbitrary",
+    "difference": -0.144,
+    "ci": [
+      -0.194,
+      -0.096
+    ],
+    "left_only": 50,
+    "right_only": 122,
+    "p": 3.952460425923366e-08
+  },
+  {
+    "model": "qwen27",
+    "budget": 64,
+    "condition": "concrete",
+    "difference": -0.2,
+    "ci": [
+      -0.248,
+      -0.152
+    ],
+    "left_only": 34,
+    "right_only": 134,
+    "p": 3.0553304563825894e-15
+  },
+  {
+    "model": "qwen27",
+    "budget": 64,
+    "condition": "arbitrary",
+    "difference": -0.05,
+    "ci": [
+      -0.1,
+      -0.002
+    ],
+    "left_only": 63,
+    "right_only": 88,
+    "p": 0.05044785478187989
+  },
+  {
+    "model": "qwen27",
+    "budget": 128,
+    "condition": "concrete",
+    "difference": -0.076,
+    "ci": [
+      -0.126,
+      -0.026
+    ],
+    "left_only": 59,
+    "right_only": 97,
+    "p": 0.0029305816112167276
+  },
+  {
+    "model": "qwen27",
+    "budget": 128,
+    "condition": "arbitrary",
+    "difference": 0.186,
+    "ci": [
+      0.134,
+      0.236
+    ],
+    "left_only": 143,
+    "right_only": 50,
+    "p": 1.4161347838071056e-11
+  },
+  {
+    "model": "qwen27",
+    "budget": 192,
+    "condition": "concrete",
+    "difference": 0.02,
+    "ci": [
+      -0.03,
+      0.07
+    ],
+    "left_only": 83,
+    "right_only": 73,
+    "p": 0.47128610321960557
+  },
+  {
+    "model": "qwen27",
+    "budget": 192,
+    "condition": "arbitrary",
+    "difference": 0.274,
+    "ci": [
+      0.222,
+      0.326
+    ],
+    "left_only": 176,
+    "right_only": 39,
+    "p": 5.584941623824423e-22
+  },
+  {
+    "model": "qwen27",
+    "budget": 256,
+    "condition": "concrete",
+    "difference": 0.024,
+    "ci": [
+      -0.024,
+      0.07
+    ],
+    "left_only": 75,
+    "right_only": 63,
+    "p": 0.34911516637678036
+  },
+  {
+    "model": "qwen27",
+    "budget": 256,
+    "condition": "arbitrary",
+    "difference": 0.392,
+    "ci": [
+      0.34,
+      0.442
+    ],
+    "left_only": 223,
+    "right_only": 27,
+    "p": 1.4923287750205437e-39
+  },
+  {
+    "model": "qwen27",
+    "budget": 384,
+    "condition": "concrete",
+    "difference": 0.072,
+    "ci": [
+      0.028,
+      0.118
+    ],
+    "left_only": 83,
+    "right_only": 47,
+    "p": 0.0020237797357403843
+  },
+  {
+    "model": "qwen27",
+    "budget": 384,
+    "condition": "arbitrary",
+    "difference": 0.436,
+    "ci": [
+      0.386,
+      0.486
+    ],
+    "left_only": 239,
+    "right_only": 21,
+    "p": 5.230151964061184e-48
+  },
+  {
+    "model": "qwen27",
+    "budget": 512,
+    "condition": "concrete",
+    "difference": 0.114,
+    "ci": [
+      0.07,
+      0.16
+    ],
+    "left_only": 96,
+    "right_only": 39,
+    "p": 1.0064989577328082e-06
+  },
+  {
+    "model": "qwen27",
+    "budget": 512,
+    "condition": "arbitrary",
+    "difference": 0.45,
+    "ci": [
+      0.4,
+      0.498
+    ],
+    "left_only": 245,
+    "right_only": 20,
+    "p": 2.1096339871264994e-50
+  },
+  {
+    "model": "qwenmax",
+    "budget": 32,
+    "condition": "concrete",
+    "difference": -0.068,
+    "ci": [
+      -0.094,
+      -0.042
+    ],
+    "left_only": 7,
+    "right_only": 41,
+    "p": 6.240408438884516e-07
+  },
+  {
+    "model": "qwenmax",
+    "budget": 32,
+    "condition": "arbitrary",
+    "difference": -0.032,
+    "ci": [
+      -0.062,
+      -0.002
+    ],
+    "left_only": 21,
+    "right_only": 37,
+    "p": 0.047940324071666984
+  },
+  {
+    "model": "qwenmax",
+    "budget": 64,
+    "condition": "concrete",
+    "difference": -0.084,
+    "ci": [
+      -0.112,
+      -0.056
+    ],
+    "left_only": 7,
+    "right_only": 49,
+    "p": 7.455210310203242e-09
+  },
+  {
+    "model": "qwenmax",
+    "budget": 64,
+    "condition": "arbitrary",
+    "difference": -0.012,
+    "ci": [
+      -0.038,
+      0.014
+    ],
+    "left_only": 20,
+    "right_only": 26,
+    "p": 0.4613911821367651
+  },
+  {
+    "model": "qwenmax",
+    "budget": 128,
+    "condition": "concrete",
+    "difference": -0.048,
+    "ci": [
+      -0.072,
+      -0.024
+    ],
+    "left_only": 7,
+    "right_only": 31,
+    "p": 0.00011616700794547796
+  },
+  {
+    "model": "qwenmax",
+    "budget": 128,
+    "condition": "arbitrary",
+    "difference": -0.036,
+    "ci": [
+      -0.068,
+      -0.004
+    ],
+    "left_only": 26,
+    "right_only": 44,
+    "p": 0.04139142867391546
+  },
+  {
+    "model": "qwenmax",
+    "budget": 192,
+    "condition": "concrete",
+    "difference": -0.032,
+    "ci": [
+      -0.054,
+      -0.01
+    ],
+    "left_only": 8,
+    "right_only": 24,
+    "p": 0.0070003666914999485
+  },
+  {
+    "model": "qwenmax",
+    "budget": 192,
+    "condition": "arbitrary",
+    "difference": -0.012,
+    "ci": [
+      -0.04,
+      0.016
+    ],
+    "left_only": 23,
+    "right_only": 29,
+    "p": 0.48845566937989204
+  },
+  {
+    "model": "qwenmax",
+    "budget": 256,
+    "condition": "concrete",
+    "difference": -0.014,
+    "ci": [
+      -0.032,
+      0.004
+    ],
+    "left_only": 8,
+    "right_only": 15,
+    "p": 0.21003961563110352
+  },
+  {
+    "model": "qwenmax",
+    "budget": 256,
+    "condition": "arbitrary",
+    "difference": 0.038,
+    "ci": [
+      0.014,
+      0.062
+    ],
+    "left_only": 30,
+    "right_only": 11,
+    "p": 0.00432400493446039
+  },
+  {
+    "model": "qwenmax",
+    "budget": 384,
+    "condition": "concrete",
+    "difference": -0.01,
+    "ci": [
+      -0.028,
+      0.008
+    ],
+    "left_only": 8,
+    "right_only": 13,
+    "p": 0.38331031799316406
+  },
+  {
+    "model": "qwenmax",
+    "budget": 384,
+    "condition": "arbitrary",
+    "difference": 0.012,
+    "ci": [
+      -0.016,
+      0.038
+    ],
+    "left_only": 27,
+    "right_only": 21,
+    "p": 0.470879013621712
+  },
+  {
+    "model": "qwenmax",
+    "budget": 512,
+    "condition": "concrete",
+    "difference": -0.016,
+    "ci": [
+      -0.036,
+      0.002
+    ],
+    "left_only": 8,
+    "right_only": 16,
+    "p": 0.15158963203430176
+  },
+  {
+    "model": "qwenmax",
+    "budget": 512,
+    "condition": "arbitrary",
+    "difference": 0.024,
+    "ci": [
+      -0.002,
+      0.05
+    ],
+    "left_only": 29,
+    "right_only": 17,
+    "p": 0.10380535550410741
+  }
+]

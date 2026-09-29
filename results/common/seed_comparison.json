@@ -1,0 +1,100 @@
+{
+  "paired": [
+    {
+      "seed": 20260914,
+      "condition": "concrete",
+      "difference": 0.03,
+      "ci": [
+        0.014,
+        0.048
+      ],
+      "left_only": 16,
+      "right_only": 1,
+      "p": 0.000274658203125,
+      "p_holm": 0.001373291015625
+    },
+    {
+      "seed": 20260914,
+      "condition": "arbitrary",
+      "difference": 0.032,
+      "ci": [
+        0.014,
+        0.052
+      ],
+      "left_only": 20,
+      "right_only": 4,
+      "p": 0.001543879508972168,
+      "p_holm": 0.004631638526916504
+    },
+    {
+      "seed": 20260915,
+      "condition": "concrete",
+      "difference": 0.022,
+      "ci": [
+        0.01,
+        0.036
+      ],
+      "left_only": 11,
+      "right_only": 0,
+      "p": 0.0009765625,
+      "p_holm": 0.00390625
+    },
+    {
+      "seed": 20260915,
+      "condition": "arbitrary",
+      "difference": 0.042,
+      "ci": [
+        0.026,
+        0.06
+      ],
+      "left_only": 21,
+      "right_only": 0,
+      "p": 9.5367431640625e-07,
+      "p_holm": 5.7220458984375e-06
+    },
+    {
+      "seed": 20260916,
+      "condition": "concrete",
+      "difference": 0.01,
+      "ci": [
+        -0.002,
+        0.024
+      ],
+      "left_only": 8,
+      "right_only": 3,
+      "p": 0.2265625,
+      "p_holm": 0.2265625
+    },
+    {
+      "seed": 20260916,
+      "condition": "arbitrary",
+      "difference": 0.024,
+      "ci": [
+        0.006,
+        0.042
+      ],
+      "left_only": 17,
+      "right_only": 5,
+      "p": 0.01690053939819336,
+      "p_holm": 0.03380107879638672
+    }
+  ],
+  "across": [
+    {
+      "condition": "concrete",
+      "difference": 0.020666666666666663,
+      "ci": [
+        0.011333333333333334,
+        0.030666666666666665
+      ]
+    },
+    {
+      "condition": "arbitrary",
+      "difference": 0.03266666666666666,
+      "ci": [
+        0.021333333333333333,
+        0.044666666666666674
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+model,title,n,concrete,arbitrary,gap,ci95,concrete_only,arbitrary_only,mcnemar_p,valid_c,valid_a,protocol
+qwen27,Qwen3.8-27B,500,0.646,0.29,0.356,"[0.306, 0.406]",203,25,7.713243197032018e-36,394,253,strict whole response
+gemma26,Gemma 4 26B,500,0.968,0.702,0.266,"[0.226, 0.306]",135,2,1.0852659758470611e-37,499,496,strict whole response
+gemma31,Gemma 4 31B,500,0.982,0.862,0.12,"[0.09, 0.152]",64,4,5.873990530091966e-15,496,491,observationally answer-only
+qwenmax,Qwen3.8-Max,500,0.984,0.93,0.054,"[0.032, 0.078]",32,5,7.427530363202095e-06,496,495,observationally answer-only

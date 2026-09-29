@@ -1,0 +1,262 @@
+[
+  {
+    "model": "qwen27",
+    "feature": "translation",
+    "log_odds": -0.3825984247954476,
+    "se": 0.182056219343513,
+    "ci": [
+      -0.739428614708733,
+      -0.025768234882162122
+    ],
+    "p": 0.03559359167931687,
+    "interpretable": true,
+    "controls": "budget categorical + log(1+trace words); graph-clustered sandwich SE"
+  },
+  {
+    "model": "qwen27",
+    "feature": "kinship",
+    "log_odds": -0.17325939236538984,
+    "se": 0.2031278869241864,
+    "ci": [
+      -0.5713900507367952,
+      0.22487126600601548
+    ],
+    "p": 0.39368304300443424,
+    "interpretable": true,
+    "controls": "budget categorical + log(1+trace words); graph-clustered sandwich SE"
+  },
+  {
+    "model": "qwen27",
+    "feature": "composition",
+    "log_odds": 0.7332126684803149,
+    "se": 0.1572916012046999,
+    "ci": [
+      0.42492113011910304,
+      1.0415042068415268
+    ],
+    "p": 3.1393373247327424e-06,
+    "interpretable": true,
+    "controls": "budget categorical + log(1+trace words); graph-clustered sandwich SE"
+  },
+  {
+    "model": "qwen27",
+    "feature": "direction",
+    "log_odds": 0.02609885126977025,
+    "se": 0.1621755606485306,
+    "ci": [
+      -0.2917652476013497,
+      0.3439629501408902
+    ],
+    "p": 0.8721488333500197,
+    "interpretable": true,
+    "controls": "budget categorical + log(1+trace words); graph-clustered sandwich SE"
+  },
+  {
+    "model": "qwen27",
+    "feature": "gender",
+    "log_odds": 0.31218934355458866,
+    "se": 0.18622335641893525,
+    "ci": [
+      -0.052808435026524436,
+      0.6771871221357018
+    ],
+    "p": 0.09365512966913916,
+    "interpretable": true,
+    "controls": "budget categorical + log(1+trace words); graph-clustered sandwich SE"
+  },
+  {
+    "model": "gemma26",
+    "feature": "translation",
+    "log_odds": 1.3951505047420847,
+    "se": 1.4631733528627044,
+    "ci": [
+      -1.4726692668688162,
+      4.262970276352986
+    ],
+    "p": null,
+    "interpretable": false,
+    "controls": "budget categorical + log(1+trace words); graph-clustered sandwich SE"
+  },
+  {
+    "model": "gemma26",
+    "feature": "kinship",
+    "log_odds": 1.3951505047420847,
+    "se": 1.4631733528627044,
+    "ci": [
+      -1.4726692668688162,
+      4.262970276352986
+    ],
+    "p": null,
+    "interpretable": false,
+    "controls": "budget categorical + log(1+trace words); graph-clustered sandwich SE"
+  },
+  {
+    "model": "gemma26",
+    "feature": "composition",
+    "log_odds": 0.38654382456526837,
+    "se": 0.15768424278540868,
+    "ci": [
+      0.07748270870586738,
+      0.6956049404246694
+    ],
+    "p": 0.014231006603301673,
+    "interpretable": true,
+    "controls": "budget categorical + log(1+trace words); graph-clustered sandwich SE"
+  },
+  {
+    "model": "gemma26",
+    "feature": "direction",
+    "log_odds": 0.7571940648625609,
+    "se": 0.24441765036902163,
+    "ci": [
+      0.27813547013927853,
+      1.2362526595858432
+    ],
+    "p": 0.0019486321321754466,
+    "interpretable": true,
+    "controls": "budget categorical + log(1+trace words); graph-clustered sandwich SE"
+  },
+  {
+    "model": "gemma26",
+    "feature": "gender",
+    "log_odds": 2.380658059215786,
+    "se": 1.1576395378478048,
+    "ci": [
+      0.11168456503408875,
+      4.649631553397484
+    ],
+    "p": null,
+    "interpretable": false,
+    "controls": "budget categorical + log(1+trace words); graph-clustered sandwich SE"
+  },
+  {
+    "model": "gemma31",
+    "feature": "translation",
+    "log_odds": 3.6867068951228634,
+    "se": 1.9382160787133558,
+    "ci": [
+      -0.11219661915531365,
+      7.4856104094010405
+    ],
+    "p": null,
+    "interpretable": false,
+    "controls": "budget categorical + log(1+trace words); graph-clustered sandwich SE"
+  },
+  {
+    "model": "gemma31",
+    "feature": "kinship",
+    "log_odds": 3.6867068951228634,
+    "se": 1.9382160787133558,
+    "ci": [
+      -0.11219661915531365,
+      7.4856104094010405
+    ],
+    "p": null,
+    "interpretable": false,
+    "controls": "budget categorical + log(1+trace words); graph-clustered sandwich SE"
+  },
+  {
+    "model": "gemma31",
+    "feature": "composition",
+    "log_odds": -0.41065806842093844,
+    "se": 0.19330696137410922,
+    "ci": [
+      -0.7895397127141925,
+      -0.03177642412768439
+    ],
+    "p": 0.033638110517682125,
+    "interpretable": true,
+    "controls": "budget categorical + log(1+trace words); graph-clustered sandwich SE"
+  },
+  {
+    "model": "gemma31",
+    "feature": "direction",
+    "log_odds": 0.10835752110439853,
+    "se": 0.36287671276020134,
+    "ci": [
+      -0.602880835905596,
+      0.8195958781143932
+    ],
+    "p": 0.7652399352699348,
+    "interpretable": true,
+    "controls": "budget categorical + log(1+trace words); graph-clustered sandwich SE"
+  },
+  {
+    "model": "gemma31",
+    "feature": "gender",
+    "log_odds": 3.557363921030593,
+    "se": 1.4907637719721802,
+    "ci": [
+      0.6354669279651199,
+      6.479260914096066
+    ],
+    "p": null,
+    "interpretable": false,
+    "controls": "budget categorical + log(1+trace words); graph-clustered sandwich SE"
+  },
+  {
+    "model": "qwenmax",
+    "feature": "translation",
+    "log_odds": -0.11554035660955565,
+    "se": 0.3458056961889807,
+    "ci": [
+      -0.7933195211399579,
+      0.5622388079208466
+    ],
+    "p": 0.7382895380234717,
+    "interpretable": true,
+    "controls": "budget categorical + log(1+trace words); graph-clustered sandwich SE"
+  },
+  {
+    "model": "qwenmax",
+    "feature": "kinship",
+    "log_odds": 0.33177208178798673,
+    "se": 0.2935017102315849,
+    "ci": [
+      -0.2434912702659196,
+      0.9070354338418931
+    ],
+    "p": 0.258310945029012,
+    "interpretable": true,
+    "controls": "budget categorical + log(1+trace words); graph-clustered sandwich SE"
+  },
+  {
+    "model": "qwenmax",
+    "feature": "composition",
+    "log_odds": -0.4053498353849116,
+    "se": 0.3437257768555236,
+    "ci": [
+      -1.0790523580217377,
+      0.2683526872519146
+    ],
+    "p": 0.23828565572963945,
+    "interpretable": true,
+    "controls": "budget categorical + log(1+trace words); graph-clustered sandwich SE"
+  },
+  {
+    "model": "qwenmax",
+    "feature": "direction",
+    "log_odds": 1.853356435912027,
+    "se": 0.2991787432177125,
+    "ci": [
+      1.2669660992053104,
+      2.4397467726187436
+    ],
+    "p": 5.835418489602156e-10,
+    "interpretable": true,
+    "controls": "budget categorical + log(1+trace words); graph-clustered sandwich SE"
+  },
+  {
+    "model": "qwenmax",
+    "feature": "gender",
+    "log_odds": 0.7671121426493034,
+    "se": 0.24606935856198545,
+    "ci": [
+      0.2848161998678119,
+      1.2494080854307947
+    ],
+    "p": 0.0018241478741414104,
+    "interpretable": true,
+    "controls": "budget categorical + log(1+trace words); graph-clustered sandwich SE"
+  }
+]

@@ -1,0 +1,470 @@
+{
+  "dataset": {
+    "trials.jsonl": "a3c81f351212b85ef3f044654a8be90c5fcae3c8937f2688b37d266b13e9230b",
+    "problems.jsonl": "fd0c1ec75182b130b42cd20269680d9324ac9225cffd360173aedb239f608681"
+  },
+  "sources": [
+    {
+      "path": "data/common/responses-qwen-local-plain-common-v2-depth-128.jsonl",
+      "sha256": "abded41e1b06dfe655c72ddf8fc9ba3a3cfcc06d6fd50580c420f0e6d2ccb931",
+      "rows": 1000,
+      "model": "qwen27",
+      "budget": 128,
+      "seed": 20260914,
+      "configs": [
+        "37829efa22b14c2b"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-qwen-local-plain-common-v2-depth-192.jsonl",
+      "sha256": "5131d5859a071dab00d0a449283a68701e9f637f95f2ee412c0adb6cd15e46cb",
+      "rows": 1000,
+      "model": "qwen27",
+      "budget": 192,
+      "seed": 20260914,
+      "configs": [
+        "5d6ecef3c48f6f8e"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-qwen-local-plain-common-v2-depth-256.jsonl",
+      "sha256": "784d9a584b3ddd3f24251d89102418fd7fcbfd794300eee5f14720a74c06c09e",
+      "rows": 1000,
+      "model": "qwen27",
+      "budget": 256,
+      "seed": 20260914,
+      "configs": [
+        "d92baaa97e6c94f8"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-qwen-local-plain-common-v2-depth-32.jsonl",
+      "sha256": "86931d5a96b1095676080ad3b1d66248f6cf53364a0438b70b48a0a15db4fe28",
+      "rows": 1000,
+      "model": "qwen27",
+      "budget": 32,
+      "seed": 20260914,
+      "configs": [
+        "2883833553917377"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-qwen-local-plain-common-v2-depth-384.jsonl",
+      "sha256": "e12d6622910be3b818e0659549765ff8409dfc7b02c4283fa017170a2c66ac8c",
+      "rows": 1000,
+      "model": "qwen27",
+      "budget": 384,
+      "seed": 20260914,
+      "configs": [
+        "37b331985065f271"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-qwen-local-plain-common-v2-depth-512.jsonl",
+      "sha256": "5f07fe4700176c4d739c6346306ef49443948d8a6b8d2fa498ded1f46a352d58",
+      "rows": 1000,
+      "model": "qwen27",
+      "budget": 512,
+      "seed": 20260914,
+      "configs": [
+        "78713681fbccb749"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-qwen-local-plain-common-v2-depth-64.jsonl",
+      "sha256": "f81f85acb99c02e938694daf00925b0e78634cfdcc29510108bbcaad6ac1f283",
+      "rows": 1000,
+      "model": "qwen27",
+      "budget": 64,
+      "seed": 20260914,
+      "configs": [
+        "79c47efe64b661cf"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-qwen-local-plain-common-v2-depth-off.jsonl",
+      "sha256": "58fe4e4077f336b364c8961e09a906e79c961577684429abe65171540fb7d0f1",
+      "rows": 1000,
+      "model": "qwen27",
+      "budget": 0,
+      "seed": 20260914,
+      "configs": [
+        "7f1c9ddedf04325f"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-gemma4-plain-common-v2-depth-off.jsonl",
+      "sha256": "0872667836e16c77572228cb3177b62e77d40c2940c6dd9f1999b0e25ce2ee02",
+      "rows": 1000,
+      "model": "gemma26",
+      "budget": 0,
+      "seed": 20260914,
+      "configs": [
+        "cf3fc42c7faff6bd"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-gemma4-plain-common-v3-depth-128.jsonl",
+      "sha256": "4035817bd05e6ba4e29d6cd4b719599a8af55d4a674199edec057c16787c12ea",
+      "rows": 1000,
+      "model": "gemma26",
+      "budget": 128,
+      "seed": 20260914,
+      "configs": [
+        "3a5f51f624078f14"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-gemma4-plain-common-v3-depth-192.jsonl",
+      "sha256": "0488fd5ab21964f8a7d186f459fa2f92b41cfe9fbab97a7d1f87c50a8a0c4f59",
+      "rows": 1000,
+      "model": "gemma26",
+      "budget": 192,
+      "seed": 20260914,
+      "configs": [
+        "b199e99b5fb0cf59"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-gemma4-plain-common-v3-depth-256.jsonl",
+      "sha256": "d89a86b0392549b8f964a069e5b5816a43d005eb54b86f8832e719059a6fc45c",
+      "rows": 1000,
+      "model": "gemma26",
+      "budget": 256,
+      "seed": 20260914,
+      "configs": [
+        "2a38f8a4703e7f72"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-gemma4-plain-common-v3-depth-32.jsonl",
+      "sha256": "996a68f9cbfe803f37dbdc8fb2fb8c0cf71606f59926bdbefedca45e01e998e2",
+      "rows": 1000,
+      "model": "gemma26",
+      "budget": 32,
+      "seed": 20260914,
+      "configs": [
+        "bd7f3b4a7b65128d"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-gemma4-plain-common-v3-depth-384.jsonl",
+      "sha256": "304701347f99900ab9f96bf2256b1e417f39c0112a4f456a270c0c0acd52bfbd",
+      "rows": 1000,
+      "model": "gemma26",
+      "budget": 384,
+      "seed": 20260914,
+      "configs": [
+        "f126200fc2733e6b"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-gemma4-plain-common-v3-depth-512-seed20260915.jsonl",
+      "sha256": "87e021375bd8efe766deb2884739e97ccce730d61256e56e0dd92fc0ef1ae8ab",
+      "rows": 1000,
+      "model": "gemma26",
+      "budget": 512,
+      "seed": 20260915,
+      "configs": [
+        "bdde0337f5e74380"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-gemma4-plain-common-v3-depth-512-seed20260916.jsonl",
+      "sha256": "0035ea8bfa7d37c844e0192ca3faa3088acc86946a6634c1331b60d8edff5570",
+      "rows": 1000,
+      "model": "gemma26",
+      "budget": 512,
+      "seed": 20260916,
+      "configs": [
+        "26c5e9c9504239c8"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-gemma4-plain-common-v3-depth-512.jsonl",
+      "sha256": "3f5e41f1e146b1fab94783bcef0fb80e3dd5a00e437100b2828b9015f320237d",
+      "rows": 1000,
+      "model": "gemma26",
+      "budget": 512,
+      "seed": 20260914,
+      "configs": [
+        "6974076d6b21d168"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-gemma4-plain-common-v3-depth-64.jsonl",
+      "sha256": "e6de441d2bff2411f1ca36916d06e75b9c7377bd0648686378b7c75942acfdbf",
+      "rows": 1000,
+      "model": "gemma26",
+      "budget": 64,
+      "seed": 20260914,
+      "configs": [
+        "e4ee6c68efe5aa0c"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-gemma4-31b-dense-v1-depth-128.jsonl",
+      "sha256": "e78b0e61725bf7548ed9a9277144b1ae43d03d343e05cc8db0c86583725ea6ff",
+      "rows": 1000,
+      "model": "gemma31",
+      "budget": 128,
+      "seed": 20260914,
+      "configs": [
+        "1b685a716e5c7999"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-gemma4-31b-dense-v1-depth-192.jsonl",
+      "sha256": "a9e53d2315fde332b78e6e582e8a3b40111d07f08ed1642982a4610a42980e51",
+      "rows": 1000,
+      "model": "gemma31",
+      "budget": 192,
+      "seed": 20260914,
+      "configs": [
+        "fb4d6ec4b12c8f3e"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-gemma4-31b-dense-v1-depth-256.jsonl",
+      "sha256": "9736aecabafe4b5ca0fc85375ec2676ac0a1cdd9bd1c79174cab26302942f706",
+      "rows": 1000,
+      "model": "gemma31",
+      "budget": 256,
+      "seed": 20260914,
+      "configs": [
+        "0056a35cb871659f"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-gemma4-31b-dense-v1-depth-32.jsonl",
+      "sha256": "766ea4d05283bbd20983220f8576626ecb5d1a5981f4d5341810935ebf923682",
+      "rows": 1000,
+      "model": "gemma31",
+      "budget": 32,
+      "seed": 20260914,
+      "configs": [
+        "c645c7150fe2638d"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-gemma4-31b-dense-v1-depth-384.jsonl",
+      "sha256": "af52b882f5c44b3295e5c335779d50f206140a468f271a552006bb54b3a8abd1",
+      "rows": 1000,
+      "model": "gemma31",
+      "budget": 384,
+      "seed": 20260914,
+      "configs": [
+        "a2205cce791d9722"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-gemma4-31b-dense-v1-depth-512.jsonl",
+      "sha256": "ac0d6878bd37d49d9653509b62505e0ea885eff866c56afba046c6c55ece1480",
+      "rows": 1000,
+      "model": "gemma31",
+      "budget": 512,
+      "seed": 20260914,
+      "configs": [
+        "48541f031bf8bbcf"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-gemma4-31b-dense-v1-depth-64.jsonl",
+      "sha256": "303ed20ac12bbccc57287c478e0c5007ff41d93d740b3afa235ddff61dcac7c6",
+      "rows": 1000,
+      "model": "gemma31",
+      "budget": 64,
+      "seed": 20260914,
+      "configs": [
+        "7676ae17c77f6475"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-gemma4-31b-dense-v1-depth-off-repaired.jsonl",
+      "sha256": "b7dfc359e13f7618faeeb90d8548e64dd95ea342bb5eb6584d962e7368ad8b3a",
+      "rows": 1000,
+      "model": "gemma31",
+      "budget": 0,
+      "seed": 20260914,
+      "configs": [
+        "d2c7376e55dd5c4e"
+      ],
+      "trial_fingerprints_present": 1000
+    },
+    {
+      "path": "data/common/responses-dashscope-qwen38-max-plain-common-v1-depth-128.jsonl",
+      "sha256": "f834c2ace12f9e048b4bff1863823eb8b68194069afe6c74f76260022149cb73",
+      "rows": 1000,
+      "model": "qwenmax",
+      "budget": 128,
+      "seed": 20260914,
+      "configs": [],
+      "trial_fingerprints_present": 0
+    },
+    {
+      "path": "data/common/responses-dashscope-qwen38-max-plain-common-v1-depth-192.jsonl",
+      "sha256": "08242f4b162c0df6af74845f0949adad165fce9a7130729908ed9a6ad673b0d7",
+      "rows": 1000,
+      "model": "qwenmax",
+      "budget": 192,
+      "seed": 20260914,
+      "configs": [],
+      "trial_fingerprints_present": 0
+    },
+    {
+      "path": "data/common/responses-dashscope-qwen38-max-plain-common-v1-depth-256-seed20260915.jsonl",
+      "sha256": "54ee5ef81f4d1ee49021e165caa7949d9a7a8f0682df415e8e5145ba8d8fbb8e",
+      "rows": 1000,
+      "model": "qwenmax",
+      "budget": 256,
+      "seed": 20260915,
+      "configs": [],
+      "trial_fingerprints_present": 0
+    },
+    {
+      "path": "data/common/responses-dashscope-qwen38-max-plain-common-v1-depth-256-seed20260916.jsonl",
+      "sha256": "d34bda4e22b71fcb0de1a7bddc4bfd1fd7303f648ad5764d6fd44bdcde378433",
+      "rows": 1000,
+      "model": "qwenmax",
+      "budget": 256,
+      "seed": 20260916,
+      "configs": [],
+      "trial_fingerprints_present": 0
+    },
+    {
+      "path": "data/common/responses-dashscope-qwen38-max-plain-common-v1-depth-256.jsonl",
+      "sha256": "15e699559119be3eb4aa0bf38615aa96f7b2ad0be7e71e02eb5121601206b923",
+      "rows": 1000,
+      "model": "qwenmax",
+      "budget": 256,
+      "seed": 20260914,
+      "configs": [],
+      "trial_fingerprints_present": 0
+    },
+    {
+      "path": "data/common/responses-dashscope-qwen38-max-plain-common-v1-depth-32.jsonl",
+      "sha256": "defca61a90e001be65daa9c5f48dca1770e111d2bd7a084607ae4b9fcf06d391",
+      "rows": 1000,
+      "model": "qwenmax",
+      "budget": 32,
+      "seed": 20260914,
+      "configs": [],
+      "trial_fingerprints_present": 0
+    },
+    {
+      "path": "data/common/responses-dashscope-qwen38-max-plain-common-v1-depth-384-seed20260915.jsonl",
+      "sha256": "969daac70c46f6cdb717cf601d0f530fc4ddcf533056be9d8876dcc125cc2990",
+      "rows": 1000,
+      "model": "qwenmax",
+      "budget": 384,
+      "seed": 20260915,
+      "configs": [],
+      "trial_fingerprints_present": 0
+    },
+    {
+      "path": "data/common/responses-dashscope-qwen38-max-plain-common-v1-depth-384-seed20260916.jsonl",
+      "sha256": "ebd7facef72ff9f10f9cb05e75244b53f9184992d086b91271a4022c41acc173",
+      "rows": 1000,
+      "model": "qwenmax",
+      "budget": 384,
+      "seed": 20260916,
+      "configs": [],
+      "trial_fingerprints_present": 0
+    },
+    {
+      "path": "data/common/responses-dashscope-qwen38-max-plain-common-v1-depth-384.jsonl",
+      "sha256": "374275b5843d131cd032fbf2ac163d21ba7d11b73451334867a3dd0a255a3177",
+      "rows": 1000,
+      "model": "qwenmax",
+      "budget": 384,
+      "seed": 20260914,
+      "configs": [],
+      "trial_fingerprints_present": 0
+    },
+    {
+      "path": "data/common/responses-dashscope-qwen38-max-plain-common-v1-depth-512-seed20260915.jsonl",
+      "sha256": "b0dbf984767a26f33bd53039b7d4e3fae47afe31c7a983510e54d4cd8316c8de",
+      "rows": 1000,
+      "model": "qwenmax",
+      "budget": 512,
+      "seed": 20260915,
+      "configs": [],
+      "trial_fingerprints_present": 0
+    },
+    {
+      "path": "data/common/responses-dashscope-qwen38-max-plain-common-v1-depth-512-seed20260916.jsonl",
+      "sha256": "109d75d9e6130b58640a76864da2d133ebb940ef987fcee0304445add3306343",
+      "rows": 1000,
+      "model": "qwenmax",
+      "budget": 512,
+      "seed": 20260916,
+      "configs": [],
+      "trial_fingerprints_present": 0
+    },
+    {
+      "path": "data/common/responses-dashscope-qwen38-max-plain-common-v1-depth-512.jsonl",
+      "sha256": "604dd720607c3cac516c982c37a38d2a6fffb74c2e20e553610ad561db85779b",
+      "rows": 1000,
+      "model": "qwenmax",
+      "budget": 512,
+      "seed": 20260914,
+      "configs": [],
+      "trial_fingerprints_present": 0
+    },
+    {
+      "path": "data/common/responses-dashscope-qwen38-max-plain-common-v1-depth-64.jsonl",
+      "sha256": "22e5cc4afadb3ee5efac7b3cdbe29be24f49b7dcf739e200f57f67d613171f09",
+      "rows": 1000,
+      "model": "qwenmax",
+      "budget": 64,
+      "seed": 20260914,
+      "configs": [],
+      "trial_fingerprints_present": 0
+    },
+    {
+      "path": "data/common/responses-dashscope-qwen38-max-plain-common-v1-depth-off.jsonl",
+      "sha256": "26bb4d5fa59a45c8fb4e3c89856207d5f9bf368a2f89e946b4b5df8ee1249f81",
+      "rows": 1000,
+      "model": "qwenmax",
+      "budget": 0,
+      "seed": 20260914,
+      "configs": [],
+      "trial_fingerprints_present": 0
+    }
+  ],
+  "parser_sha256": "88513aea5ac6e80ebecde499c8f1dc75df7e5d736b0d6ec03da1f80049b3a906",
+  "analysis_sha256": "8bb66bbfc88a704080018031606b14aba0f7fc317def7229c1f67269b0d12e1b",
+  "bootstrap_replicates": 10000,
+  "seed": 20260922,
+  "score_discrepancies": [],
+  "total_responses": 40000,
+  "environment": {
+    "python": "3.12.13 (main, Aug  7 2026, 02:15:23) [Clang 22.1.3 ]",
+    "numpy": "2.5.3"
+  }
+}

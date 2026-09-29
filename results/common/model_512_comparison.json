@@ -1,0 +1,32 @@
+[
+  {
+    "condition": "concrete",
+    "difference": 0.028,
+    "ci": [
+      0.012,
+      0.046
+    ],
+    "left_only": 16,
+    "right_only": 2,
+    "p": 0.001312255859375
+  },
+  {
+    "condition": "arbitrary",
+    "difference": 0.044,
+    "ci": [
+      0.026,
+      0.064
+    ],
+    "left_only": 23,
+    "right_only": 1,
+    "p": 2.9802322387695312e-06
+  },
+  {
+    "condition": "graph mean across presentations",
+    "difference": 0.036,
+    "ci": [
+      0.023,
+      0.051
+    ]
+  }
+]
