@@ -1,7 +1,7 @@
 # Concrete–Arbitrary Kinship Inference: Results and Reproducibility Data
 
 This repository contains the frozen model outputs, derived results, and analysis
-code for Tom Pashby's *The Concrete–Arbitrary Gap: Kinship Reasoning in LLMs Is
+code for Thomas Pashby's *The Concrete–Arbitrary Gap: Kinship Reasoning in LLMs Is
 Not Indifferent to Presentation*. It is a data release, not a manuscript source
 repository.
 
@@ -102,9 +102,27 @@ terms.
 shasum -a 256 -c SHA256SUMS
 ```
 
-## Citation and license
+## Citation
 
-Citation metadata is in `CITATION.cff`. No reuse license is asserted by this
-release candidate. Before publication, the author should choose licenses for
-the code and data/model outputs that are compatible with the applicable model
-terms.
+Citation metadata is provided in `CITATION.cff`.
+
+## Licensing
+
+Except where otherwise noted, the original prompts, datasets, response
+records, annotations, and derived result tables in this repository are
+licensed under the [Creative Commons Attribution 4.0 International License
+(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Reuse is permitted,
+including modification and commercial reuse, provided appropriate credit is
+given. Suggested attribution is: Thomas Pashby, *The Concrete--Arbitrary Gap:
+Kinship Reasoning in LLMs Is Not Indifferent to Presentation* (2026),
+https://github.com/tompashby/concrete-arbitrary-gap.
+
+The analysis and experiment code under `scripts/` and `src/` is available
+under the [MIT License](https://opensource.org/license/mit/).
+
+The repository does not relicense model weights, APIs, trademarks, or other
+third-party materials. Generated model responses are offered under CC BY 4.0
+only to the extent that the repository author holds rights in them; applicable
+model-provider licenses and service terms continue to apply.
+
+Copyright 2026 Thomas Pashby.

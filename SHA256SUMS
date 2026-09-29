@@ -1,6 +1,8 @@
+5ad1f3fea2cd2b3859968a8c39dbc1b6cc5a11d9b0ea6caff7f580d08a392e07  ./.DS_Store
 f878cd7f2877f1c9c81df933b1b04e9fcfaa6fcad669689930d0c64f0c6a072e  ./.gitignore
-391f2af61fcc2526a415b2d7534abe8f3dc3eaa3e8f77afd497bf0163046735f  ./CITATION.cff
-e5ad45b10291aa2f0535ea6a6f099c052eeadb7973694e3a84cad350c1ab6e40  ./README.md
+3e398a815fd36ef8aaf55dc71ea7564f3a1cb0ccae1744ae6795c32d38958830  ./CITATION.cff
+388db57315f6b10a11052355f6d540fc932b367dee76faf2e99a3a0d04feb9d7  ./README.md
+f857205164555c17255b1bc52c3783781dc96ad7bd4404adc2756a96e4ab4ba6  ./data/.DS_Store
 fd0c1ec75182b130b42cd20269680d9324ac9225cffd360173aedb239f608681  ./data/common/problems.jsonl
 f834c2ace12f9e048b4bff1863823eb8b68194069afe6c74f76260022149cb73  ./data/common/responses-dashscope-qwen38-max-plain-common-v1-depth-128.jsonl
 08242f4b162c0df6af74845f0949adad165fce9a7130729908ed9a6ad673b0d7  ./data/common/responses-dashscope-qwen38-max-plain-common-v1-depth-192.jsonl
@@ -74,6 +76,7 @@ cbeec70697678651708c280ee1a67e7a90768b9cf33e30ad296007474ca17988  ./results/prom
 8fbfc8b5230293156eb7b955afe4055eb876f48af96ea82a0bde91963ea6019e  ./scripts/build_release_manifest.py
 30badd5125f623c4e89ca53e7074eebf2aed463fb500b7522becebc962db8e94  ./scripts/build_results.py
 5134a732a3c7abe7e3774cd2c6313284236510ab96ace120e3dc232b2b933929  ./scripts/verify_release.py
+516bd9680703a6fe1ba388f20f56f1526131bafe01a9ab43d2ab79735b8d4982  ./src/.DS_Store
 33506a804ccad3d7c374adea01618f7fb1dc9921a50db5b3804adc8356d849ae  ./src/relational_experiment/__init__.py
 3e892d2aadd6e032b58c578a75307f3866da07376db324ebe7b3d76b003b74df  ./src/relational_experiment/analysis.py
 7d64bae000a14ead3909c6e12596df59dab3e6afab83b20945576a0933c5fa9e  ./src/relational_experiment/cli.py
